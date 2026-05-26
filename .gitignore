@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.cache/
+.pytest_cache/
+.DS_Store
+
+standard/.libero_config/
+reflect/libero_config/
+standard/libero/datasets/
+*.pt
+*.pth

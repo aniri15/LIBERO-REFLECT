@@ -1,0 +1,20 @@
+bddl_files_path: libero/libero/bddl_files
+init_file_dir: libero/libero/init_files/
+ood_task_configs:
+  environment: libero_ood/ood_environment.yaml
+  language: libero_ood/ood_language.yaml
+  object: libero_ood/ood_object.yaml
+  swap: libero_ood/ood_spatial_relation.yaml
+  task: libero_ood/ood_task.yaml
+perturbation_mapping:
+  use_environment: env
+  use_language: lan
+  use_object: object
+  use_swap: swap
+  use_task: task
+script_path: notebooks/generate_init_states.py
+use_environment: false
+use_language: false
+use_object: true
+use_swap: false
+use_task: false
